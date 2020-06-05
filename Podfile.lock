@@ -1,0 +1,16 @@
+PODS:
+  - YouTubePlayer (0.7.0)
+
+DEPENDENCIES:
+  - YouTubePlayer
+
+SPEC REPOS:
+  trunk:
+    - YouTubePlayer
+
+SPEC CHECKSUMS:
+  YouTubePlayer: d27e302eecbbd6b17c73d9788cb6d817a3815720
+
+PODFILE CHECKSUM: 650f042b19877b85767644d30afa553cbeb1a154
+
+COCOAPODS: 1.9.1

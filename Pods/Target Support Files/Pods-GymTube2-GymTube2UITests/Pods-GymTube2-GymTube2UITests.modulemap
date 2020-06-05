@@ -1,0 +1,6 @@
+framework module Pods_GymTube2_GymTube2UITests {
+  umbrella header "Pods-GymTube2-GymTube2UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

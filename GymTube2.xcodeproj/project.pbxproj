@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FAFED99248A27B300B53560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFED98248A27B300B53560 /* AppDelegate.swift */; };
+		1FAFED9B248A27B300B53560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFED9A248A27B300B53560 /* SceneDelegate.swift */; };
+		1FAFED9D248A27B300B53560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFED9C248A27B300B53560 /* ViewController.swift */; };
+		1FAFEDA0248A27B300B53560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAFED9E248A27B300B53560 /* Main.storyboard */; };
+		1FAFEDA2248A27B400B53560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAFEDA1248A27B400B53560 /* Assets.xcassets */; };
+		1FAFEDA5248A27B400B53560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAFEDA3248A27B400B53560 /* LaunchScreen.storyboard */; };
+		1FAFEDB0248A27B400B53560 /* GymTube2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFEDAF248A27B400B53560 /* GymTube2Tests.swift */; };
+		1FAFEDBB248A27B400B53560 /* GymTube2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFEDBA248A27B400B53560 /* GymTube2UITests.swift */; };
+		73A6511CEF55B91B6BDCF6D6 /* Pods_GymTube2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E47DF065C8E02FA3EF66180 /* Pods_GymTube2Tests.framework */; };
+		767BF75E63C00CA41E96F348 /* Pods_GymTube2_GymTube2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84453864B97C4992B02B76D7 /* Pods_GymTube2_GymTube2UITests.framework */; };
+		983DBC9C272E67A439837128 /* Pods_GymTube2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10A3F1C0DF36DD75E2C0720 /* Pods_GymTube2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FAFEDAC248A27B400B53560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAFED8D248A27B300B53560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAFED94248A27B300B53560;
+			remoteInfo = GymTube2;
+		};
+		1FAFEDB7248A27B400B53560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAFED8D248A27B300B53560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAFED94248A27B300B53560;
+			remoteInfo = GymTube2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AB6048C329B946BD1966AAD /* Pods-GymTube2-GymTube2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymTube2-GymTube2UITests.debug.xcconfig"; path = "Target Support Files/Pods-GymTube2-GymTube2UITests/Pods-GymTube2-GymTube2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FAFED95248A27B300B53560 /* GymTube2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymTube2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAFED98248A27B300B53560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FAFED9A248A27B300B53560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FAFED9C248A27B300B53560 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FAFED9F248A27B300B53560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FAFEDA1248A27B400B53560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FAFEDA4248A27B400B53560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FAFEDA6248A27B400B53560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAFEDAB248A27B400B53560 /* GymTube2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymTube2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAFEDAF248A27B400B53560 /* GymTube2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymTube2Tests.swift; sourceTree = "<group>"; };
+		1FAFEDB1248A27B400B53560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAFEDB6248A27B400B53560 /* GymTube2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymTube2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAFEDBA248A27B400B53560 /* GymTube2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymTube2UITests.swift; sourceTree = "<group>"; };
+		1FAFEDBC248A27B400B53560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FF529EB5D81FDD57A90677 /* Pods-GymTube2-GymTube2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymTube2-GymTube2UITests.release.xcconfig"; path = "Target Support Files/Pods-GymTube2-GymTube2UITests/Pods-GymTube2-GymTube2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2768F23D1A7FA99E9FC6DE55 /* Pods-GymTube2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymTube2Tests.release.xcconfig"; path = "Target Support Files/Pods-GymTube2Tests/Pods-GymTube2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E47DF065C8E02FA3EF66180 /* Pods_GymTube2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymTube2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84453864B97C4992B02B76D7 /* Pods_GymTube2_GymTube2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymTube2_GymTube2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10A3F1C0DF36DD75E2C0720 /* Pods_GymTube2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymTube2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B332C054095C0DB9703C45C9 /* Pods-GymTube2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymTube2.debug.xcconfig"; path = "Target Support Files/Pods-GymTube2/Pods-GymTube2.debug.xcconfig"; sourceTree = "<group>"; };
+		EB931274102F5E53A56611AA /* Pods-GymTube2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymTube2Tests.debug.xcconfig"; path = "Target Support Files/Pods-GymTube2Tests/Pods-GymTube2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFE58CEC7AB07B985C7B3F3D /* Pods-GymTube2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymTube2.release.xcconfig"; path = "Target Support Files/Pods-GymTube2/Pods-GymTube2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FAFED92248A27B300B53560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983DBC9C272E67A439837128 /* Pods_GymTube2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFEDA8248A27B400B53560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A6511CEF55B91B6BDCF6D6 /* Pods_GymTube2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFEDB3248A27B400B53560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767BF75E63C00CA41E96F348 /* Pods_GymTube2_GymTube2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAFED8C248A27B300B53560 = {
+			isa = PBXGroup;
+			children = (
+				1FAFED97248A27B300B53560 /* GymTube2 */,
+				1FAFEDAE248A27B400B53560 /* GymTube2Tests */,
+				1FAFEDB9248A27B400B53560 /* GymTube2UITests */,
+				1FAFED96248A27B300B53560 /* Products */,
+				BEF1F031041BB7B76E1D7103 /* Pods */,
+				5170031BCE3D0E1EC1896B84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FAFED96248A27B300B53560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFED95248A27B300B53560 /* GymTube2.app */,
+				1FAFEDAB248A27B400B53560 /* GymTube2Tests.xctest */,
+				1FAFEDB6248A27B400B53560 /* GymTube2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FAFED97248A27B300B53560 /* GymTube2 */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFED98248A27B300B53560 /* AppDelegate.swift */,
+				1FAFED9A248A27B300B53560 /* SceneDelegate.swift */,
+				1FAFED9C248A27B300B53560 /* ViewController.swift */,
+				1FAFED9E248A27B300B53560 /* Main.storyboard */,
+				1FAFEDA1248A27B400B53560 /* Assets.xcassets */,
+				1FAFEDA3248A27B400B53560 /* LaunchScreen.storyboard */,
+				1FAFEDA6248A27B400B53560 /* Info.plist */,
+			);
+			path = GymTube2;
+			sourceTree = "<group>";
+		};
+		1FAFEDAE248A27B400B53560 /* GymTube2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFEDAF248A27B400B53560 /* GymTube2Tests.swift */,
+				1FAFEDB1248A27B400B53560 /* Info.plist */,
+			);
+			path = GymTube2Tests;
+			sourceTree = "<group>";
+		};
+		1FAFEDB9248A27B400B53560 /* GymTube2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAFEDBA248A27B400B53560 /* GymTube2UITests.swift */,
+				1FAFEDBC248A27B400B53560 /* Info.plist */,
+			);
+			path = GymTube2UITests;
+			sourceTree = "<group>";
+		};
+		5170031BCE3D0E1EC1896B84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10A3F1C0DF36DD75E2C0720 /* Pods_GymTube2.framework */,
+				84453864B97C4992B02B76D7 /* Pods_GymTube2_GymTube2UITests.framework */,
+				4E47DF065C8E02FA3EF66180 /* Pods_GymTube2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEF1F031041BB7B76E1D7103 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B332C054095C0DB9703C45C9 /* Pods-GymTube2.debug.xcconfig */,
+				EFE58CEC7AB07B985C7B3F3D /* Pods-GymTube2.release.xcconfig */,
+				0AB6048C329B946BD1966AAD /* Pods-GymTube2-GymTube2UITests.debug.xcconfig */,
+				22FF529EB5D81FDD57A90677 /* Pods-GymTube2-GymTube2UITests.release.xcconfig */,
+				EB931274102F5E53A56611AA /* Pods-GymTube2Tests.debug.xcconfig */,
+				2768F23D1A7FA99E9FC6DE55 /* Pods-GymTube2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FAFED94248A27B300B53560 /* GymTube2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAFEDBF248A27B400B53560 /* Build configuration list for PBXNativeTarget "GymTube2" */;
+			buildPhases = (
+				6D9C42641C8A13CBACCD5786 /* [CP] Check Pods Manifest.lock */,
+				1FAFED91248A27B300B53560 /* Sources */,
+				1FAFED92248A27B300B53560 /* Frameworks */,
+				1FAFED93248A27B300B53560 /* Resources */,
+				0E464FDC2E3F9268C1C2C892 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymTube2;
+			productName = GymTube2;
+			productReference = 1FAFED95248A27B300B53560 /* GymTube2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FAFEDAA248A27B400B53560 /* GymTube2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAFEDC2248A27B400B53560 /* Build configuration list for PBXNativeTarget "GymTube2Tests" */;
+			buildPhases = (
+				38F082769A54F2AB7320E6E8 /* [CP] Check Pods Manifest.lock */,
+				1FAFEDA7248A27B400B53560 /* Sources */,
+				1FAFEDA8248A27B400B53560 /* Frameworks */,
+				1FAFEDA9248A27B400B53560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAFEDAD248A27B400B53560 /* PBXTargetDependency */,
+			);
+			name = GymTube2Tests;
+			productName = GymTube2Tests;
+			productReference = 1FAFEDAB248A27B400B53560 /* GymTube2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FAFEDB5248A27B400B53560 /* GymTube2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAFEDC5248A27B400B53560 /* Build configuration list for PBXNativeTarget "GymTube2UITests" */;
+			buildPhases = (
+				BBC43FE3E1CE5DB4B1D2B7D2 /* [CP] Check Pods Manifest.lock */,
+				1FAFEDB2248A27B400B53560 /* Sources */,
+				1FAFEDB3248A27B400B53560 /* Frameworks */,
+				1FAFEDB4248A27B400B53560 /* Resources */,
+				896D6AD0791ECC8D3D8A72C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAFEDB8248A27B400B53560 /* PBXTargetDependency */,
+			);
+			name = GymTube2UITests;
+			productName = GymTube2UITests;
+			productReference = 1FAFEDB6248A27B400B53560 /* GymTube2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FAFED8D248A27B300B53560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = FumikoYamamoto;
+				TargetAttributes = {
+					1FAFED94248A27B300B53560 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					1FAFEDAA248A27B400B53560 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 1FAFED94248A27B300B53560;
+					};
+					1FAFEDB5248A27B400B53560 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 1FAFED94248A27B300B53560;
+					};
+				};
+			};
+			buildConfigurationList = 1FAFED90248A27B300B53560 /* Build configuration list for PBXProject "GymTube2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FAFED8C248A27B300B53560;
+			productRefGroup = 1FAFED96248A27B300B53560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FAFED94248A27B300B53560 /* GymTube2 */,
+				1FAFEDAA248A27B400B53560 /* GymTube2Tests */,
+				1FAFEDB5248A27B400B53560 /* GymTube2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FAFED93248A27B300B53560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAFEDA5248A27B400B53560 /* LaunchScreen.storyboard in Resources */,
+				1FAFEDA2248A27B400B53560 /* Assets.xcassets in Resources */,
+				1FAFEDA0248A27B300B53560 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFEDA9248A27B400B53560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFEDB4248A27B400B53560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E464FDC2E3F9268C1C2C892 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymTube2/Pods-GymTube2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymTube2/Pods-GymTube2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymTube2/Pods-GymTube2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38F082769A54F2AB7320E6E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymTube2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9C42641C8A13CBACCD5786 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymTube2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		896D6AD0791ECC8D3D8A72C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymTube2-GymTube2UITests/Pods-GymTube2-GymTube2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymTube2-GymTube2UITests/Pods-GymTube2-GymTube2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymTube2-GymTube2UITests/Pods-GymTube2-GymTube2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC43FE3E1CE5DB4B1D2B7D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymTube2-GymTube2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAFED91248A27B300B53560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAFED9D248A27B300B53560 /* ViewController.swift in Sources */,
+				1FAFED99248A27B300B53560 /* AppDelegate.swift in Sources */,
+				1FAFED9B248A27B300B53560 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFEDA7248A27B400B53560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAFEDB0248A27B400B53560 /* GymTube2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAFEDB2248A27B400B53560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAFEDBB248A27B400B53560 /* GymTube2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAFEDAD248A27B400B53560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAFED94248A27B300B53560 /* GymTube2 */;
+			targetProxy = 1FAFEDAC248A27B400B53560 /* PBXContainerItemProxy */;
+		};
+		1FAFEDB8248A27B400B53560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAFED94248A27B300B53560 /* GymTube2 */;
+			targetProxy = 1FAFEDB7248A27B400B53560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FAFED9E248A27B300B53560 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAFED9F248A27B300B53560 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FAFEDA3248A27B400B53560 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAFEDA4248A27B400B53560 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FAFEDBD248A27B400B53560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FAFEDBE248A27B400B53560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FAFEDC0248A27B400B53560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B332C054095C0DB9703C45C9 /* Pods-GymTube2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW3NSG932X;
+				INFOPLIST_FILE = GymTube2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fumiko.GymTube2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FAFEDC1248A27B400B53560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE58CEC7AB07B985C7B3F3D /* Pods-GymTube2.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW3NSG932X;
+				INFOPLIST_FILE = GymTube2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fumiko.GymTube2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FAFEDC3248A27B400B53560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB931274102F5E53A56611AA /* Pods-GymTube2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW3NSG932X;
+				INFOPLIST_FILE = GymTube2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fumiko.GymTube2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymTube2.app/GymTube2";
+			};
+			name = Debug;
+		};
+		1FAFEDC4248A27B400B53560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2768F23D1A7FA99E9FC6DE55 /* Pods-GymTube2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW3NSG932X;
+				INFOPLIST_FILE = GymTube2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fumiko.GymTube2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymTube2.app/GymTube2";
+			};
+			name = Release;
+		};
+		1FAFEDC6248A27B400B53560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB6048C329B946BD1966AAD /* Pods-GymTube2-GymTube2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW3NSG932X;
+				INFOPLIST_FILE = GymTube2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fumiko.GymTube2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymTube2;
+			};
+			name = Debug;
+		};
+		1FAFEDC7248A27B400B53560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FF529EB5D81FDD57A90677 /* Pods-GymTube2-GymTube2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW3NSG932X;
+				INFOPLIST_FILE = GymTube2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fumiko.GymTube2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymTube2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAFED90248A27B300B53560 /* Build configuration list for PBXProject "GymTube2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAFEDBD248A27B400B53560 /* Debug */,
+				1FAFEDBE248A27B400B53560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAFEDBF248A27B400B53560 /* Build configuration list for PBXNativeTarget "GymTube2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAFEDC0248A27B400B53560 /* Debug */,
+				1FAFEDC1248A27B400B53560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAFEDC2248A27B400B53560 /* Build configuration list for PBXNativeTarget "GymTube2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAFEDC3248A27B400B53560 /* Debug */,
+				1FAFEDC4248A27B400B53560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAFEDC5248A27B400B53560 /* Build configuration list for PBXNativeTarget "GymTube2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAFEDC6248A27B400B53560 /* Debug */,
+				1FAFEDC7248A27B400B53560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FAFED8D248A27B300B53560 /* Project object */;
+}
