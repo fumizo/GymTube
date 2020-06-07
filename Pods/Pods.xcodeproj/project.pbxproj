@@ -7,23 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C81D71EFAC308238D3AB753B850D681 /* Pods-GymTube2-GymTube2UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 354A57C16ABC986B0F91A707AFFAD43E /* Pods-GymTube2-GymTube2UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BC58CC260328DED9AE29AED931B8B9D /* Pods-GymTube2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A63E9093ED73FEB22B1A8F2328961ABD /* Pods-GymTube2-dummy.m */; };
-		6AFE64234513C287B31ABEBA88874B38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6BD5F897603E8539A55A61398D39BDA7 /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7314B5F04F0C1502DF7BD4D1BDDD042B /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B55BD9201752AF7439D7F8BFBE31FF0 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139EB99EE33105B6F4C75593B3EBE01 /* YouTubePlayer.swift */; };
-		AA9579BDC8E5F0FD7E1136E4B3F35827 /* Pods-GymTube2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE3063573524D911D68687120191F61 /* Pods-GymTube2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD437D66DD2F0734373F4B2BD115D7A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C25B78F3F00AFB245C90F082734744FA /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EC00CB61A41F298A5DCB2E4CC1B8A3 /* YouTubePlayer-dummy.m */; };
+		00E32EFF838E92B4D365E3B6D4C827BA /* CoachMarkInnerLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3162A3821572A4640A0045EEF10D39 /* CoachMarkInnerLayoutHelper.swift */; };
+		0190D51130399D52585B3F4978A4C533 /* CoachMarkBodyHighlightArrowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A625DED7162C476B76783BFB6C2718 /* CoachMarkBodyHighlightArrowDelegate.swift */; };
+		026E11786B3FB36A947A68E081D3BEED /* SkipViewDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF7C1AD510BE592D94BB2E3D4A96490 /* SkipViewDisplayManager.swift */; };
+		06CFD8D2464CCCC474E6D367A12ECDFD /* OverlaySnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31790360FFBDAB62EB6172DCA4CE8AF0 /* OverlaySnapshotView.swift */; };
+		08DD28828D57F760BE57C06FDB5871D2 /* CoachMarkComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73D06C17A84B34BE0F1A036FE358D6 /* CoachMarkComponent.swift */; };
+		0BCCC159F89C23FF1C5DDABE791518EB /* CoachMarkBodyDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521FFB61FB66B3FBC6BE5E99E9C9B7E /* CoachMarkBodyDefaultView.swift */; };
+		0EEC821DAF84CC7B3004BE080D670372 /* CoachMarksControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48C246584E0DD36F0A909C21895EF6 /* CoachMarksControllerDelegate.swift */; };
+		1445F55802D2619591CF3EA037B03698 /* CoachMarkAnimationManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467479DC2815DE78E4F5FD5427900F /* CoachMarkAnimationManagement.swift */; };
+		189743401A1BA4D5DE953A30AA2ABEAB /* FlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A98255641C20B33B781290330D6E16 /* FlowManager.swift */; };
+		1B07FE14ABB4A1CEC55FBA5458A9BAF8 /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2523BF87129C3A36964420B167E4CC /* MaskView.swift */; };
+		220F87D0AEB57CDE58B7ED1680DAE3AC /* CoachMarkBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C0E7380D859A17C26F2EF404172F48 /* CoachMarkBodyView.swift */; };
+		247083C2EF1234953BAC64D59277F2E3 /* CoachMarksController+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108F79D0A93756914955B0AC1BA1867 /* CoachMarksController+Proxy.swift */; };
+		28BDE89DF51A3448CD8F3C0A9F3FF8CA /* CoachMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2049A6B2056E0A11D85E8EEBEFA533 /* CoachMark.swift */; };
+		2972A1B524011809EC494706CF24EABE /* PassthroughViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F740B098BDF67D14468FFFD98374A7AB /* PassthroughViews.swift */; };
+		2E20F36A73395A089D0F3E88DD7D66DC /* ConfigurationChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C33CC3EAF28D93E7DC6ADDD9AD7BFEB /* ConfigurationChange.swift */; };
+		367437CA1BD35421BA2975A905D0087D /* CoachMarkSkipDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE4EFE2D190D803AD06FD29E311AD1 /* CoachMarkSkipDefaultView.swift */; };
+		4039A8C50D81DCBBF73CCC8BC684EE65 /* PauseStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A65B92217D0C8C8F3CC0E210DC1C8 /* PauseStyle.swift */; };
+		41B0BD3B7D1B74552EDAA046FE22F284 /* CoachMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE3CCB95F07F5DB9D0DFD671B045B1 /* CoachMarkView.swift */; };
+		490FDB63662910C99D55B4D8CEB458D5 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F743CBFDE3905C6C1ACCA33EB8F8A616 /* UIView+Layout.swift */; };
+		4B93922CBA1FD9BE04FBF1B75C800C17 /* CoachMarkPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B722480FE302E170DBF9E4311536171 /* CoachMarkPosition.swift */; };
+		4F8E5C08E2BD46DE2BF060525A3BE42B /* CoachMarksControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C1EECCD357E5E4E7E7019D1CB9B9C /* CoachMarksControllerDataSource.swift */; };
+		6BD5F897603E8539A55A61398D39BDA7 /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0413F97A5BC726FD1234502BB1F3163E /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CE8D1056FD5A2E599A9358E91BE29B3 /* Pods-GymTube2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A63E9093ED73FEB22B1A8F2328961ABD /* Pods-GymTube2-dummy.m */; };
+		725FAEDAA2D8863BFDEFA01F7A45B21F /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A344D391FB1AAFAFE3C5F5F44545FDC /* Instructions.swift */; };
+		7732FA817F86C43195797C7159CA5257 /* CoachMarkViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09099C82590460167A36ED21C5E782D5 /* CoachMarkViewControllerDelegate.swift */; };
+		773D349D1ADF4D12E1AB68EEA31F2F16 /* CoachMarksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9799197F89B58241F91002830C55090 /* CoachMarksController.swift */; };
+		785E096AAAA599BF4432217672554850 /* CoachMarkSkipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B35194855AD0B941E44A5B166236A /* CoachMarkSkipView.swift */; };
+		8AA90FBBA59AE9A471B575C5775FFF4F /* ViewControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F44863AB81EC19A2F5C206678347CA /* ViewControllerConfiguration.swift */; };
+		8FC4B1BC745FA8CFE37CAE23557E4BD9 /* OverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BD7ED7D6494C914F40E443B16FE893 /* OverlayStyleManager.swift */; };
+		91EB4B31C1491A4CB9FF5D86B08C8BE1 /* OverlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831B65A4EDC4445B970BE9BEE021964 /* OverlayManager.swift */; };
+		98AEA55F32CE9A3777CFCAEE2FCE1D42 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34610E4EE09DBDEAE909A62F82188F32 /* OverlayView.swift */; };
+		9B55BD9201752AF7439D7F8BFBE31FF0 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65B30148FE34F8991AB06137719BB6 /* YouTubePlayer.swift */; };
+		A01600C4CD082A4CB6E5D21A0144FC9F /* CoachMarkArrowOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F36E2948E9BAD3692B64330DC7404 /* CoachMarkArrowOrientation.swift */; };
+		A27DD3AF195536497DEF447CCFC4871B /* TranslucentOverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B90EBF6E95A9B5BEE13CEE062AA46AE /* TranslucentOverlayStyleManager.swift */; };
+		A81E914B104FCF8EC58E52CA20A45392 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D64CB1AC76E9EFC5FE81E1EBF99841 /* AccessibilityIdentifiers.swift */; };
+		AA39AD248EE2CAB1CEBD9A7F8794EBFD /* Instructions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D29E72024ACE4875B4B963258CE64 /* Instructions-dummy.m */; };
+		AA9357F3C4FA5A19D64268ED580B7444 /* CoachMarkTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9971D4F46334B72839E15EE1A1E8D9BA /* CoachMarkTransitionManager.swift */; };
+		BB7C23116626187FC6F9EF93983F6104 /* Instructions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C0A3E3A3D09F5E697A1C6354BDAB94 /* Instructions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE05B4494259B7F946C05E078D4444A /* PresentationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5526C10A00DF988D2F05BECAA7EC6 /* PresentationContext.swift */; };
+		BDEFEEC496E8CF3AC82DFD5CDC1BA80E /* CoachMarksControllerAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2DA40F7B935B389C44E8A52AF4E28 /* CoachMarksControllerAnimationDelegate.swift */; };
+		C25B78F3F00AFB245C90F082734744FA /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F5094E60589A19E854435576484488 /* YouTubePlayer-dummy.m */; };
+		C37478E298CFD46F5423D47CC91332BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C83E39D5A6E8BA52641378D68524ADD2 /* CoachMarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE52A6C200CE70D1351E13D16E26CE /* CoachMarksViewController.swift */; };
+		C84D3F4DC9CF7BF73194101012813CE9 /* CoachMarkLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113AA772C846426101E88B92AD081A55 /* CoachMarkLayoutHelper.swift */; };
 		CC895FE490310FAB208D48846ADC5FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CD01B21B4BBF3CDD7435B4862E2FD201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D606D4A24BE76065555324DFA8A5798E /* CoachMarkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C38EDB002A049D83AD52D6F026B44 /* CoachMarkHelper.swift */; };
+		DBC2E443091959BEEA9E173558848C2C /* CoachMarkArrowDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9299005A415185139FAAB5C34CF1105A /* CoachMarkArrowDefaultView.swift */; };
+		DBE3C9BAFB1FC90906062AA31BDB8D5F /* CoachMarkBackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7806B3FEF58F9629C86A1BA7BE88FE3 /* CoachMarkBackgroundStyle.swift */; };
+		DBF5B3A54B1243AEE0F7C6238BD11759 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DE98E8C18B1095274EBD057E441A233B /* Pods-GymTube2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE3063573524D911D68687120191F61 /* Pods-GymTube2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E4AC6D21518861C61955240CCD5FE2 /* CoachMarkArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C385236C9C8E1C362E5FAB8270C112 /* CoachMarkArrowView.swift */; };
 		E69E92E3A26A53861832CA3402693238 /* Pods-GymTube2Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D69435B3780B77CBF38D3A7C145799 /* Pods-GymTube2Tests-dummy.m */; };
-		E9364E2D8EAB205C8D348410F403A0F6 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CC77AFF19C9AB7A30936794EFB9A048 /* YTPlayer.html */; };
+		E9364E2D8EAB205C8D348410F403A0F6 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F8171A578BF46052ED9A4CD2AB04239 /* YTPlayer.html */; };
+		EED8A1710FE9BD91230238DFFB9542C3 /* UIApplication+WindowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477974EDFBE5685D71FCD8C7065CED0A /* UIApplication+WindowScene.swift */; };
+		F08AFFA5D9BE3CCCE81D16AEFA6452BB /* CoachMarkDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B517ECAFB667CB4AD761800B8D74BAD /* CoachMarkDisplayManager.swift */; };
+		F32744433320C4C2277F28D2D02C1E44 /* BlurringOverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0934193D0EA318D327649EB8DF6F21E /* BlurringOverlayStyleManager.swift */; };
+		F34BED54F31B69D8364EC4853C47B1E3 /* Pods-GymTube2-GymTube2UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C52230139B6267E8060EFE454ACF97F /* Pods-GymTube2-GymTube2UITests-dummy.m */; };
 		F449F88B072E39B864DC1C3D1C759E5F /* Pods-GymTube2Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA17F4010706774B85921368027ADB4 /* Pods-GymTube2Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F53F691BEF1F8AB308682CC20F994569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F824A2C7588192590DF6FB9659424C67 /* Pods-GymTube2-GymTube2UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C52230139B6267E8060EFE454ACF97F /* Pods-GymTube2-GymTube2UITests-dummy.m */; };
+		F823B3785203F7C840087A989E50A957 /* CoachMarkAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D9511B63F20A643E6F926F3056E7B /* CoachMarkAnimationManager.swift */; };
+		FA2C170B9B61051E577BB9EB96F38E9D /* Pods-GymTube2-GymTube2UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 354A57C16ABC986B0F91A707AFFAD43E /* Pods-GymTube2-GymTube2UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCB5A62C6E9FA55391A3FE51D0862C12 /* CoachMarkBodyBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8755BFBD1FD3ECB5E3768CCF8B0 /* CoachMarkBodyBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1A526D9ACA39491A14A5DFC3CE0A31A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97482FB5B78AAF68DDD9AC7CD1C3A456;
+			remoteInfo = Instructions;
+		};
+		3648CC6893D0C0D246C6DAB4207E48FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97482FB5B78AAF68DDD9AC7CD1C3A456;
+			remoteInfo = Instructions;
+		};
 		3C6D52340952BB1C91ADB0C4B45563A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -31,14 +94,14 @@
 			remoteGlobalIDString = 84666EEF509607BAC477739B19F94523;
 			remoteInfo = "Pods-GymTube2";
 		};
-		D9B592E5A40CED13C1CC7D7C6222CE74 /* PBXContainerItemProxy */ = {
+		8B95DCD810329D07128EB642E09497EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6273C43DC7FF94E93DBFF580DB584296;
 			remoteInfo = YouTubePlayer;
 		};
-		EB718BF292BE1D18A1198BF8E5215BCF /* PBXContainerItemProxy */ = {
+		C769246FA19CF350EF24BA02E2098536 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -48,63 +111,109 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C0E7380D859A17C26F2EF404172F48 /* CoachMarkBodyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyView.swift; path = "Sources/Instructions/Protocols and Enums/Public/CoachMarkBodyView.swift"; sourceTree = "<group>"; };
 		03ECC1DC7B7FF14AEF8DC65B92C185B4 /* Pods-GymTube2Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GymTube2Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0413F97A5BC726FD1234502BB1F3163E /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
+		09099C82590460167A36ED21C5E782D5 /* CoachMarkViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkViewControllerDelegate.swift; path = "Sources/Instructions/Protocols and Enums/Internal/CoachMarkViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		113AA772C846426101E88B92AD081A55 /* CoachMarkLayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkLayoutHelper.swift; path = Sources/Instructions/Helpers/Internal/CoachMarkLayoutHelper.swift; sourceTree = "<group>"; };
+		116B0E90F0D11AA8AB0816AF2A3D9A0E /* Instructions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Instructions.debug.xcconfig; sourceTree = "<group>"; };
+		11C0A3E3A3D09F5E697A1C6354BDAB94 /* Instructions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Instructions-umbrella.h"; sourceTree = "<group>"; };
+		15F44863AB81EC19A2F5C206678347CA /* ViewControllerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewControllerConfiguration.swift; path = "Sources/Instructions/Protocols and Enums/Public/Enums/ViewControllerConfiguration.swift"; sourceTree = "<group>"; };
 		196AB9E2A6826B4C7CA68E303FB5AE2A /* Pods-GymTube2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymTube2-Info.plist"; sourceTree = "<group>"; };
-		1F11C9EDAF3E6BE69DD2D28341260193 /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YouTubePlayer.framework; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A344D391FB1AAFAFE3C5F5F44545FDC /* Instructions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instructions.swift; path = Sources/Instructions/Instructions.swift; sourceTree = "<group>"; };
+		1A65B30148FE34F8991AB06137719BB6 /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
+		1C22078EBCD4EA2D0BEA63674BE8FBF0 /* Instructions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Instructions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F11C9EDAF3E6BE69DD2D28341260193 /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2049A6B2056E0A11D85E8EEBEFA533 /* CoachMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMark.swift; path = Sources/Instructions/Core/Public/CoachMark.swift; sourceTree = "<group>"; };
+		26C385236C9C8E1C362E5FAB8270C112 /* CoachMarkArrowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowView.swift; path = "Sources/Instructions/Protocols and Enums/Public/CoachMarkArrowView.swift"; sourceTree = "<group>"; };
 		2A82426EA4906FE46E7AAE3B54439F3F /* Pods-GymTube2-GymTube2UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymTube2-GymTube2UITests-Info.plist"; sourceTree = "<group>"; };
+		31790360FFBDAB62EB6172DCA4CE8AF0 /* OverlaySnapshotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlaySnapshotView.swift; path = Sources/Instructions/Views/OverlaySnapshotView.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34610E4EE09DBDEAE909A62F82188F32 /* OverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = Sources/Instructions/Views/OverlayView.swift; sourceTree = "<group>"; };
 		354A57C16ABC986B0F91A707AFFAD43E /* Pods-GymTube2-GymTube2UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GymTube2-GymTube2UITests-umbrella.h"; sourceTree = "<group>"; };
+		35D64CB1AC76E9EFC5FE81E1EBF99841 /* AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessibilityIdentifiers.swift; path = Sources/Instructions/Helpers/Internal/AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
+		3B517ECAFB667CB4AD761800B8D74BAD /* CoachMarkDisplayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkDisplayManager.swift; path = Sources/Instructions/Managers/Internal/CoachMarkDisplayManager.swift; sourceTree = "<group>"; };
 		3C4CD00ADB4A32A736B2DAED89D6C4C4 /* Pods-GymTube2Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GymTube2Tests.modulemap"; sourceTree = "<group>"; };
-		3CC77AFF19C9AB7A30936794EFB9A048 /* YTPlayer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YTPlayer.html; path = YouTubePlayer/YouTubePlayer/YTPlayer.html; sourceTree = "<group>"; };
-		417405ED51FD74D75A934DBB2F0AE43E /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
-		4D6A598D15EF3F1744D09A3A574829B8 /* Pods_GymTube2_GymTube2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GymTube2_GymTube2UITests.framework; path = "Pods-GymTube2-GymTube2UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDEB8755BFBD1FD3ECB5E3768CCF8B0 /* CoachMarkBodyBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyBackgroundView.swift; path = Sources/Instructions/Extra/Internal/CoachMarkBodyBackgroundView.swift; sourceTree = "<group>"; };
+		3D3162A3821572A4640A0045EEF10D39 /* CoachMarkInnerLayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkInnerLayoutHelper.swift; path = Sources/Instructions/Helpers/Internal/CoachMarkInnerLayoutHelper.swift; sourceTree = "<group>"; };
+		4521FFB61FB66B3FBC6BE5E99E9C9B7E /* CoachMarkBodyDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkBodyDefaultView.swift"; sourceTree = "<group>"; };
+		477974EDFBE5685D71FCD8C7065CED0A /* UIApplication+WindowScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+WindowScene.swift"; path = "Sources/Instructions/Helpers/Internal/Extensions/UIApplication+WindowScene.swift"; sourceTree = "<group>"; };
+		49BE7D90CE5D21F5BFE8DD8810A58EB8 /* YouTubePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.release.xcconfig; sourceTree = "<group>"; };
+		4D6A598D15EF3F1744D09A3A574829B8 /* Pods_GymTube2_GymTube2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymTube2_GymTube2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AAADED668D3E0CAA14FE6F9D5BEB54 /* Pods-GymTube2-GymTube2UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GymTube2-GymTube2UITests-frameworks.sh"; sourceTree = "<group>"; };
 		65756E8B6C7F50CE4B14AC19FDB627BF /* Pods-GymTube2-GymTube2UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GymTube2-GymTube2UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6A8EAC02705A718875CA9FD6B7CD5636 /* Pods-GymTube2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymTube2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C52230139B6267E8060EFE454ACF97F /* Pods-GymTube2-GymTube2UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GymTube2-GymTube2UITests-dummy.m"; sourceTree = "<group>"; };
 		6D0FF1479F88A4899CF99C474611A7C8 /* Pods-GymTube2Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymTube2Tests-Info.plist"; sourceTree = "<group>"; };
-		7314B5F04F0C1502DF7BD4D1BDDD042B /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
+		6F7D9511B63F20A643E6F926F3056E7B /* CoachMarkAnimationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkAnimationManager.swift; path = "Sources/Instructions/Helpers/Public/CoachMark Animation/CoachMarkAnimationManager.swift"; sourceTree = "<group>"; };
+		6F8171A578BF46052ED9A4CD2AB04239 /* YTPlayer.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = YTPlayer.html; path = YouTubePlayer/YouTubePlayer/YTPlayer.html; sourceTree = "<group>"; };
+		70692EA05BB39ED2170D785DD71F72A1 /* Instructions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Instructions-prefix.pch"; sourceTree = "<group>"; };
+		7108F79D0A93756914955B0AC1BA1867 /* CoachMarksController+Proxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoachMarksController+Proxy.swift"; path = "Sources/Instructions/Core/Public/Extensions/CoachMarksController+Proxy.swift"; sourceTree = "<group>"; };
+		71AE4EFE2D190D803AD06FD29E311AD1 /* CoachMarkSkipDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkSkipDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkSkipDefaultView.swift"; sourceTree = "<group>"; };
+		74B2DA40F7B935B389C44E8A52AF4E28 /* CoachMarksControllerAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksControllerAnimationDelegate.swift; path = "Sources/Instructions/Protocols and Enums/Public/Delegates/CoachMarksControllerAnimationDelegate.swift"; sourceTree = "<group>"; };
+		74BD7ED7D6494C914F40E443B16FE893 /* OverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/OverlayStyleManager.swift; sourceTree = "<group>"; };
+		788C1EECCD357E5E4E7E7019D1CB9B9C /* CoachMarksControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksControllerDataSource.swift; path = "Sources/Instructions/Protocols and Enums/Public/CoachMarksControllerDataSource.swift"; sourceTree = "<group>"; };
+		7B722480FE302E170DBF9E4311536171 /* CoachMarkPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkPosition.swift; path = Sources/Instructions/Helpers/Internal/Enums/CoachMarkPosition.swift; sourceTree = "<group>"; };
+		7B90EBF6E95A9B5BEE13CEE062AA46AE /* TranslucentOverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TranslucentOverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/TranslucentOverlayStyleManager.swift; sourceTree = "<group>"; };
 		7BD9377AAD70AED8D73B0F62E5C3C757 /* Pods-GymTube2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GymTube2.modulemap"; sourceTree = "<group>"; };
-		8976B18286B0F26951A0EDD45557CC0D /* YouTubePlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YouTubePlayer-Info.plist"; sourceTree = "<group>"; };
-		8C4997BCDEB264EF1FBDA916988494C8 /* Pods_GymTube2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GymTube2Tests.framework; path = "Pods-GymTube2Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1F36E2948E9BAD3692B64330DC7404 /* CoachMarkArrowOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowOrientation.swift; path = Sources/Instructions/Helpers/Public/Enums/CoachMarkArrowOrientation.swift; sourceTree = "<group>"; };
+		801D29E72024ACE4875B4B963258CE64 /* Instructions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Instructions-dummy.m"; sourceTree = "<group>"; };
+		833C38EDB002A049D83AD52D6F026B44 /* CoachMarkHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkHelper.swift; path = Sources/Instructions/Helpers/Public/CoachMarkHelper.swift; sourceTree = "<group>"; };
+		863B35194855AD0B941E44A5B166236A /* CoachMarkSkipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkSkipView.swift; path = "Sources/Instructions/Protocols and Enums/Public/CoachMarkSkipView.swift"; sourceTree = "<group>"; };
+		8C33CC3EAF28D93E7DC6ADDD9AD7BFEB /* ConfigurationChange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationChange.swift; path = "Sources/Instructions/Protocols and Enums/Public/Enums/ConfigurationChange.swift"; sourceTree = "<group>"; };
+		8C4997BCDEB264EF1FBDA916988494C8 /* Pods_GymTube2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymTube2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D380B2846EB8C1CB30939C9D675FA9 /* Pods-GymTube2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GymTube2-frameworks.sh"; sourceTree = "<group>"; };
-		97E866EDD45116032E2E52BD2ED93256 /* YouTubePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.release.xcconfig; sourceTree = "<group>"; };
+		91515ECE6109DC6A3BEE9E5AD2C23614 /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
+		9299005A415185139FAAB5C34CF1105A /* CoachMarkArrowDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkArrowDefaultView.swift"; sourceTree = "<group>"; };
+		9971D4F46334B72839E15EE1A1E8D9BA /* CoachMarkTransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkTransitionManager.swift; path = "Sources/Instructions/Helpers/Public/CoachMark Animation/CoachMarkTransitionManager.swift"; sourceTree = "<group>"; };
 		9AFBD4A1DBDA7A2E59BD8C4D25F3B08F /* Pods-GymTube2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymTube2-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D13C67F64A4427A26F121C96037D745 /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A139EB99EE33105B6F4C75593B3EBE01 /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F467479DC2815DE78E4F5FD5427900F /* CoachMarkAnimationManagement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkAnimationManagement.swift; path = "Sources/Instructions/Helpers/Public/CoachMark Animation/CoachMarkAnimationManagement.swift"; sourceTree = "<group>"; };
+		9F73D06C17A84B34BE0F1A036FE358D6 /* CoachMarkComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkComponent.swift; path = Sources/Instructions/Extra/Internal/CoachMarkComponent.swift; sourceTree = "<group>"; };
 		A63E9093ED73FEB22B1A8F2328961ABD /* Pods-GymTube2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GymTube2-dummy.m"; sourceTree = "<group>"; };
+		ABB5526C10A00DF988D2F05BECAA7EC6 /* PresentationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationContext.swift; path = "Sources/Instructions/Protocols and Enums/Public/Enums/PresentationContext.swift"; sourceTree = "<group>"; };
+		AF48C246584E0DD36F0A909C21895EF6 /* CoachMarksControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksControllerDelegate.swift; path = "Sources/Instructions/Protocols and Enums/Public/Delegates/CoachMarksControllerDelegate.swift"; sourceTree = "<group>"; };
 		AFC17A5FA3D8B5A0384280A655AE679F /* Pods-GymTube2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GymTube2-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C7719077D15D0E789A9C8B9FB3297065 /* YouTubePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.debug.xcconfig; sourceTree = "<group>"; };
+		B0EE52A6C200CE70D1351E13D16E26CE /* CoachMarksViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksViewController.swift; path = Sources/Instructions/Core/Internal/CoachMarksViewController.swift; sourceTree = "<group>"; };
+		B2A98255641C20B33B781290330D6E16 /* FlowManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlowManager.swift; path = Sources/Instructions/Managers/Public/FlowManager.swift; sourceTree = "<group>"; };
+		BD2523BF87129C3A36964420B167E4CC /* MaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskView.swift; path = Sources/Instructions/Views/MaskView.swift; sourceTree = "<group>"; };
+		C12A65B92217D0C8C8F3CC0E210DC1C8 /* PauseStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PauseStyle.swift; path = "Sources/Instructions/Protocols and Enums/Public/Enums/PauseStyle.swift"; sourceTree = "<group>"; };
+		C7806B3FEF58F9629C86A1BA7BE88FE3 /* CoachMarkBackgroundStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBackgroundStyle.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkBackgroundStyle.swift"; sourceTree = "<group>"; };
+		C831B65A4EDC4445B970BE9BEE021964 /* OverlayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayManager.swift; path = Sources/Instructions/Managers/Public/OverlayManager.swift; sourceTree = "<group>"; };
 		CAE3063573524D911D68687120191F61 /* Pods-GymTube2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GymTube2-umbrella.h"; sourceTree = "<group>"; };
+		CCD25B44CF6D49A31141D83C110CEE18 /* Instructions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Instructions.modulemap; sourceTree = "<group>"; };
+		CCF7C1AD510BE592D94BB2E3D4A96490 /* SkipViewDisplayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipViewDisplayManager.swift; path = Sources/Instructions/Managers/Internal/SkipViewDisplayManager.swift; sourceTree = "<group>"; };
 		CD249083FA75706C4308F3441E127C9A /* Pods-GymTube2-GymTube2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymTube2-GymTube2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		D068AD530B29CFEA54AA76F331F1B499 /* Instructions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Instructions-Info.plist"; sourceTree = "<group>"; };
+		D1A625DED7162C476B76783BFB6C2718 /* CoachMarkBodyHighlightArrowDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyHighlightArrowDelegate.swift; path = "Sources/Instructions/Protocols and Enums/Public/CoachMarkBodyHighlightArrowDelegate.swift"; sourceTree = "<group>"; };
 		D6B946945E2A733357CC5CC26F824EAF /* Pods-GymTube2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymTube2.debug.xcconfig"; sourceTree = "<group>"; };
+		D9799197F89B58241F91002830C55090 /* CoachMarksController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksController.swift; path = Sources/Instructions/Core/Public/CoachMarksController.swift; sourceTree = "<group>"; };
+		DF98414343F694A278A27DA3D7CC7766 /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
+		E0934193D0EA318D327649EB8DF6F21E /* BlurringOverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurringOverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/BlurringOverlayStyleManager.swift; sourceTree = "<group>"; };
+		E147E6C56CC61B7AF148F08B11EF5F25 /* YouTubePlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YouTubePlayer-Info.plist"; sourceTree = "<group>"; };
 		E3CE03BFC6A307F9B7C38F434AC07025 /* Pods-GymTube2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymTube2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E4D69435B3780B77CBF38D3A7C145799 /* Pods-GymTube2Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GymTube2Tests-dummy.m"; sourceTree = "<group>"; };
+		E4F5094E60589A19E854435576484488 /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
+		E6D4778C4B7F3AD742C639504B2BDBC5 /* Instructions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Instructions.release.xcconfig; sourceTree = "<group>"; };
 		EA942297D2627F853F2B2D860074D8B2 /* Pods-GymTube2-GymTube2UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymTube2-GymTube2UITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EAA17F4010706774B85921368027ADB4 /* Pods-GymTube2Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GymTube2Tests-umbrella.h"; sourceTree = "<group>"; };
-		EAB800460688A11793DD9DE3BD4BA1BD /* Pods_GymTube2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GymTube2.framework; path = "Pods-GymTube2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB800460688A11793DD9DE3BD4BA1BD /* Pods_GymTube2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymTube2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEE3CCB95F07F5DB9D0DFD671B045B1 /* CoachMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkView.swift; path = Sources/Instructions/Views/CoachMarkView.swift; sourceTree = "<group>"; };
 		EF2C140999EBD634532A52A7198D7D74 /* Pods-GymTube2-GymTube2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymTube2-GymTube2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF56CB2A3E33D65557A49B33289E9D98 /* Pods-GymTube2-GymTube2UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GymTube2-GymTube2UITests.modulemap"; sourceTree = "<group>"; };
 		F460D8146B2318CC2F9A8C4C59232DD6 /* Pods-GymTube2Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymTube2Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F6EC00CB61A41F298A5DCB2E4CC1B8A3 /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
+		F740B098BDF67D14468FFFD98374A7AB /* PassthroughViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughViews.swift; path = Sources/Instructions/Views/PassthroughViews.swift; sourceTree = "<group>"; };
+		F743CBFDE3905C6C1ACCA33EB8F8A616 /* UIView+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "Sources/Instructions/Helpers/Internal/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
 		FCF260F6F0DB56EDF0725F630791DBDF /* Pods-GymTube2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymTube2.release.xcconfig"; sourceTree = "<group>"; };
+		FE0715DC913798BCCBFB2CBA2BD48213 /* YouTubePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18CE6151E64645C6107DE62DB4087820 /* Frameworks */ = {
+		19F44CDF4A8563850DED669F93B0C25B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AFE64234513C287B31ABEBA88874B38 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7218B76BD4F259DB7A110BBAAEC76F47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD437D66DD2F0734373F4B2BD115D7A5 /* Foundation.framework in Frameworks */,
+				CD01B21B4BBF3CDD7435B4862E2FD201 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +222,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F53F691BEF1F8AB308682CC20F994569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB177756592728ADA442F038981DF724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37478E298CFD46F5423D47CC91332BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5F602B19AC765CA5483DA693C8CEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF5B3A54B1243AEE0F7C6238BD11759 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +252,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05469F67A4A62D47661015A374BB5BB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F8171A578BF46052ED9A4CD2AB04239 /* YTPlayer.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		1255B0FCDBBC4E766E34B228AA409CE7 /* Pods-GymTube2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,27 +277,53 @@
 			path = "Target Support Files/Pods-GymTube2";
 			sourceTree = "<group>";
 		};
-		135EC97747D7C121D6E04DE3A9CEE27A /* Support Files */ = {
+		2A0C21E609CA4BC265569FE7444CCE6B /* YouTubePlayer */ = {
 			isa = PBXGroup;
 			children = (
-				417405ED51FD74D75A934DBB2F0AE43E /* YouTubePlayer.modulemap */,
-				F6EC00CB61A41F298A5DCB2E4CC1B8A3 /* YouTubePlayer-dummy.m */,
-				8976B18286B0F26951A0EDD45557CC0D /* YouTubePlayer-Info.plist */,
-				9D13C67F64A4427A26F121C96037D745 /* YouTubePlayer-prefix.pch */,
-				7314B5F04F0C1502DF7BD4D1BDDD042B /* YouTubePlayer-umbrella.h */,
-				C7719077D15D0E789A9C8B9FB3297065 /* YouTubePlayer.debug.xcconfig */,
-				97E866EDD45116032E2E52BD2ED93256 /* YouTubePlayer.release.xcconfig */,
+				1A65B30148FE34F8991AB06137719BB6 /* YouTubePlayer.swift */,
+				05469F67A4A62D47661015A374BB5BB4 /* Resources */,
+				5FF82E15BFAACE17CD3199DB03DBE984 /* Support Files */,
+			);
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+		416A023F215A40B3B5D6A9F312123644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB722318F556C2C1BE93F62952EBDAD3 /* Instructions */,
+				2A0C21E609CA4BC265569FE7444CCE6B /* YouTubePlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FF82E15BFAACE17CD3199DB03DBE984 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF98414343F694A278A27DA3D7CC7766 /* YouTubePlayer.modulemap */,
+				E4F5094E60589A19E854435576484488 /* YouTubePlayer-dummy.m */,
+				E147E6C56CC61B7AF148F08B11EF5F25 /* YouTubePlayer-Info.plist */,
+				91515ECE6109DC6A3BEE9E5AD2C23614 /* YouTubePlayer-prefix.pch */,
+				0413F97A5BC726FD1234502BB1F3163E /* YouTubePlayer-umbrella.h */,
+				FE0715DC913798BCCBFB2CBA2BD48213 /* YouTubePlayer.debug.xcconfig */,
+				49BE7D90CE5D21F5BFE8DD8810A58EB8 /* YouTubePlayer.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/YouTubePlayer";
 			sourceTree = "<group>";
 		};
-		2B2A0367A301BD4FD0AB23A36A961B25 /* Pods */ = {
+		6EB2192BA4F4CA9B6EEB9175DCD3A6A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C462D6A20EB5DAEE49170DACD1EA9EC6 /* YouTubePlayer */,
+				CCD25B44CF6D49A31141D83C110CEE18 /* Instructions.modulemap */,
+				801D29E72024ACE4875B4B963258CE64 /* Instructions-dummy.m */,
+				D068AD530B29CFEA54AA76F331F1B499 /* Instructions-Info.plist */,
+				70692EA05BB39ED2170D785DD71F72A1 /* Instructions-prefix.pch */,
+				11C0A3E3A3D09F5E697A1C6354BDAB94 /* Instructions-umbrella.h */,
+				116B0E90F0D11AA8AB0816AF2A3D9A0E /* Instructions.debug.xcconfig */,
+				E6D4778C4B7F3AD742C639504B2BDBC5 /* Instructions.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/Instructions";
 			sourceTree = "<group>";
 		};
 		BF74A563301CE446319C24C3F2B38A21 /* Pods-GymTube2Tests */ = {
@@ -191,15 +350,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C462D6A20EB5DAEE49170DACD1EA9EC6 /* YouTubePlayer */ = {
+		C4BE37ADAEE9CD99AAA889545E754322 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A139EB99EE33105B6F4C75593B3EBE01 /* YouTubePlayer.swift */,
-				F5EE6FF0680A26088C8AE323BC047CD3 /* Resources */,
-				135EC97747D7C121D6E04DE3A9CEE27A /* Support Files */,
+				1C22078EBCD4EA2D0BEA63674BE8FBF0 /* Instructions.framework */,
+				EAB800460688A11793DD9DE3BD4BA1BD /* Pods_GymTube2.framework */,
+				4D6A598D15EF3F1744D09A3A574829B8 /* Pods_GymTube2_GymTube2UITests.framework */,
+				8C4997BCDEB264EF1FBDA916988494C8 /* Pods_GymTube2Tests.framework */,
+				1F11C9EDAF3E6BE69DD2D28341260193 /* YouTubePlayer.framework */,
 			);
-			name = YouTubePlayer;
-			path = YouTubePlayer;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C64E137F5043D8E9BF4F1336B37FCAB1 /* Targets Support Files */ = {
@@ -212,13 +372,67 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CB722318F556C2C1BE93F62952EBDAD3 /* Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				35D64CB1AC76E9EFC5FE81E1EBF99841 /* AccessibilityIdentifiers.swift */,
+				E0934193D0EA318D327649EB8DF6F21E /* BlurringOverlayStyleManager.swift */,
+				1F2049A6B2056E0A11D85E8EEBEFA533 /* CoachMark.swift */,
+				9F467479DC2815DE78E4F5FD5427900F /* CoachMarkAnimationManagement.swift */,
+				6F7D9511B63F20A643E6F926F3056E7B /* CoachMarkAnimationManager.swift */,
+				9299005A415185139FAAB5C34CF1105A /* CoachMarkArrowDefaultView.swift */,
+				7C1F36E2948E9BAD3692B64330DC7404 /* CoachMarkArrowOrientation.swift */,
+				26C385236C9C8E1C362E5FAB8270C112 /* CoachMarkArrowView.swift */,
+				C7806B3FEF58F9629C86A1BA7BE88FE3 /* CoachMarkBackgroundStyle.swift */,
+				3CDEB8755BFBD1FD3ECB5E3768CCF8B0 /* CoachMarkBodyBackgroundView.swift */,
+				4521FFB61FB66B3FBC6BE5E99E9C9B7E /* CoachMarkBodyDefaultView.swift */,
+				D1A625DED7162C476B76783BFB6C2718 /* CoachMarkBodyHighlightArrowDelegate.swift */,
+				01C0E7380D859A17C26F2EF404172F48 /* CoachMarkBodyView.swift */,
+				9F73D06C17A84B34BE0F1A036FE358D6 /* CoachMarkComponent.swift */,
+				3B517ECAFB667CB4AD761800B8D74BAD /* CoachMarkDisplayManager.swift */,
+				833C38EDB002A049D83AD52D6F026B44 /* CoachMarkHelper.swift */,
+				3D3162A3821572A4640A0045EEF10D39 /* CoachMarkInnerLayoutHelper.swift */,
+				113AA772C846426101E88B92AD081A55 /* CoachMarkLayoutHelper.swift */,
+				7B722480FE302E170DBF9E4311536171 /* CoachMarkPosition.swift */,
+				D9799197F89B58241F91002830C55090 /* CoachMarksController.swift */,
+				7108F79D0A93756914955B0AC1BA1867 /* CoachMarksController+Proxy.swift */,
+				74B2DA40F7B935B389C44E8A52AF4E28 /* CoachMarksControllerAnimationDelegate.swift */,
+				788C1EECCD357E5E4E7E7019D1CB9B9C /* CoachMarksControllerDataSource.swift */,
+				AF48C246584E0DD36F0A909C21895EF6 /* CoachMarksControllerDelegate.swift */,
+				71AE4EFE2D190D803AD06FD29E311AD1 /* CoachMarkSkipDefaultView.swift */,
+				863B35194855AD0B941E44A5B166236A /* CoachMarkSkipView.swift */,
+				B0EE52A6C200CE70D1351E13D16E26CE /* CoachMarksViewController.swift */,
+				9971D4F46334B72839E15EE1A1E8D9BA /* CoachMarkTransitionManager.swift */,
+				EBEE3CCB95F07F5DB9D0DFD671B045B1 /* CoachMarkView.swift */,
+				09099C82590460167A36ED21C5E782D5 /* CoachMarkViewControllerDelegate.swift */,
+				8C33CC3EAF28D93E7DC6ADDD9AD7BFEB /* ConfigurationChange.swift */,
+				B2A98255641C20B33B781290330D6E16 /* FlowManager.swift */,
+				1A344D391FB1AAFAFE3C5F5F44545FDC /* Instructions.swift */,
+				BD2523BF87129C3A36964420B167E4CC /* MaskView.swift */,
+				C831B65A4EDC4445B970BE9BEE021964 /* OverlayManager.swift */,
+				31790360FFBDAB62EB6172DCA4CE8AF0 /* OverlaySnapshotView.swift */,
+				74BD7ED7D6494C914F40E443B16FE893 /* OverlayStyleManager.swift */,
+				34610E4EE09DBDEAE909A62F82188F32 /* OverlayView.swift */,
+				F740B098BDF67D14468FFFD98374A7AB /* PassthroughViews.swift */,
+				C12A65B92217D0C8C8F3CC0E210DC1C8 /* PauseStyle.swift */,
+				ABB5526C10A00DF988D2F05BECAA7EC6 /* PresentationContext.swift */,
+				CCF7C1AD510BE592D94BB2E3D4A96490 /* SkipViewDisplayManager.swift */,
+				7B90EBF6E95A9B5BEE13CEE062AA46AE /* TranslucentOverlayStyleManager.swift */,
+				477974EDFBE5685D71FCD8C7065CED0A /* UIApplication+WindowScene.swift */,
+				F743CBFDE3905C6C1ACCA33EB8F8A616 /* UIView+Layout.swift */,
+				15F44863AB81EC19A2F5C206678347CA /* ViewControllerConfiguration.swift */,
+				6EB2192BA4F4CA9B6EEB9175DCD3A6A6 /* Support Files */,
+			);
+			path = Instructions;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2B2A0367A301BD4FD0AB23A36A961B25 /* Pods */,
-				E382FD6ABFABA2719F63D249277DFB3A /* Products */,
+				416A023F215A40B3B5D6A9F312123644 /* Pods */,
+				C4BE37ADAEE9CD99AAA889545E754322 /* Products */,
 				C64E137F5043D8E9BF4F1336B37FCAB1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -248,33 +462,22 @@
 			path = "Target Support Files/Pods-GymTube2-GymTube2UITests";
 			sourceTree = "<group>";
 		};
-		E382FD6ABFABA2719F63D249277DFB3A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EAB800460688A11793DD9DE3BD4BA1BD /* Pods_GymTube2.framework */,
-				4D6A598D15EF3F1744D09A3A574829B8 /* Pods_GymTube2_GymTube2UITests.framework */,
-				8C4997BCDEB264EF1FBDA916988494C8 /* Pods_GymTube2Tests.framework */,
-				1F11C9EDAF3E6BE69DD2D28341260193 /* YouTubePlayer.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F5EE6FF0680A26088C8AE323BC047CD3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3CC77AFF19C9AB7A30936794EFB9A048 /* YTPlayer.html */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		99C15287BDEA4E50CA1B3ED0B20C1785 /* Headers */ = {
+		307AF0C1041307E76E1C6C7176F38D20 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C81D71EFAC308238D3AB753B850D681 /* Pods-GymTube2-GymTube2UITests-umbrella.h in Headers */,
+				DE98E8C18B1095274EBD057E441A233B /* Pods-GymTube2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D234C865A3B5DC36EC548E880D6477 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7C23116626187FC6F9EF93983F6104 /* Instructions-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +489,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C24ABB48E30A6E488BFFFD653F23698D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C170B9B61051E577BB9EB96F38E9D /* Pods-GymTube2-GymTube2UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E56EAF295AF3A7187DEB3C0F8A40248E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,30 +505,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8D02A8F093A116E54120B29AB088D71 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA9579BDC8E5F0FD7E1136E4B3F35827 /* Pods-GymTube2-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		12F74888472A31666583F49CF5EC827D /* Pods-GymTube2-GymTube2UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9CAD9F19E1B52D4CDFF5E5963B357A0 /* Build configuration list for PBXNativeTarget "Pods-GymTube2-GymTube2UITests" */;
+			buildConfigurationList = 7FF8887CE12F05AD69E3D292D7A83F3F /* Build configuration list for PBXNativeTarget "Pods-GymTube2-GymTube2UITests" */;
 			buildPhases = (
-				99C15287BDEA4E50CA1B3ED0B20C1785 /* Headers */,
-				0ADE6BA3B06631360018DD0467AE1DF1 /* Sources */,
-				7218B76BD4F259DB7A110BBAAEC76F47 /* Frameworks */,
-				DE479A2FA30696DEA7A7DCD1D296A6FE /* Resources */,
+				C24ABB48E30A6E488BFFFD653F23698D /* Headers */,
+				051DD8363E4502073FFC369EE7B991BD /* Sources */,
+				EB177756592728ADA442F038981DF724 /* Frameworks */,
+				C4B6D01959AC08ACDCD99384FA8E4A03 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				57ECE752F916EC719B6BE0F6FAB02334 /* PBXTargetDependency */,
+				C18149A30A615EC9EF446B4F79FFE895 /* PBXTargetDependency */,
+				53F7B0D302D3DCEA616A4683E8FBD499 /* PBXTargetDependency */,
 			);
 			name = "Pods-GymTube2-GymTube2UITests";
 			productName = "Pods-GymTube2-GymTube2UITests";
@@ -363,21 +567,40 @@
 		};
 		84666EEF509607BAC477739B19F94523 /* Pods-GymTube2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE3EB1700C3F222DBC544E8E02E4D3A2 /* Build configuration list for PBXNativeTarget "Pods-GymTube2" */;
+			buildConfigurationList = 3F408CD56F1F5BB77983F9A524DFF17B /* Build configuration list for PBXNativeTarget "Pods-GymTube2" */;
 			buildPhases = (
-				E8D02A8F093A116E54120B29AB088D71 /* Headers */,
-				65217E1BF718FE1CCC32D1E2582994C3 /* Sources */,
-				18CE6151E64645C6107DE62DB4087820 /* Frameworks */,
-				465830955807831FD3F73262685F445B /* Resources */,
+				307AF0C1041307E76E1C6C7176F38D20 /* Headers */,
+				5AFAAA07D944ED2FB817508B045D4BD5 /* Sources */,
+				19F44CDF4A8563850DED669F93B0C25B /* Frameworks */,
+				44ADDBAF6D2908727264BD8D809BBEBD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA218C18E2A3865769D8D8B060CDB66C /* PBXTargetDependency */,
+				71829C7843B7F9A39042064D7E8E9B3E /* PBXTargetDependency */,
+				A78B54E0F808CC3906E9D2A7EC00E65A /* PBXTargetDependency */,
 			);
 			name = "Pods-GymTube2";
 			productName = "Pods-GymTube2";
 			productReference = EAB800460688A11793DD9DE3BD4BA1BD /* Pods_GymTube2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97482FB5B78AAF68DDD9AC7CD1C3A456 /* Instructions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B7F7CB5CB76B1E0AEF587FD2B36564 /* Build configuration list for PBXNativeTarget "Instructions" */;
+			buildPhases = (
+				60D234C865A3B5DC36EC548E880D6477 /* Headers */,
+				71BF7CD1EB709374CF2F113BCDCB7C2F /* Sources */,
+				EE5F602B19AC765CA5483DA693C8CEA4 /* Frameworks */,
+				50A1001D017922FD7790391E601113E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instructions;
+			productName = Instructions;
+			productReference = 1C22078EBCD4EA2D0BEA63674BE8FBF0 /* Instructions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -398,10 +621,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E382FD6ABFABA2719F63D249277DFB3A /* Products */;
+			productRefGroup = C4BE37ADAEE9CD99AAA889545E754322 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				97482FB5B78AAF68DDD9AC7CD1C3A456 /* Instructions */,
 				84666EEF509607BAC477739B19F94523 /* Pods-GymTube2 */,
 				12F74888472A31666583F49CF5EC827D /* Pods-GymTube2-GymTube2UITests */,
 				672E0C4A71AB735EDF17EACDDE7743FE /* Pods-GymTube2Tests */,
@@ -411,7 +635,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		465830955807831FD3F73262685F445B /* Resources */ = {
+		44ADDBAF6D2908727264BD8D809BBEBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -426,6 +650,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50A1001D017922FD7790391E601113E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AA6E42A3475E6A6D1B49A2095424DEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -433,7 +664,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE479A2FA30696DEA7A7DCD1D296A6FE /* Resources */ = {
+		C4B6D01959AC08ACDCD99384FA8E4A03 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -443,11 +674,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0ADE6BA3B06631360018DD0467AE1DF1 /* Sources */ = {
+		051DD8363E4502073FFC369EE7B991BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F824A2C7588192590DF6FB9659424C67 /* Pods-GymTube2-GymTube2UITests-dummy.m in Sources */,
+				F34BED54F31B69D8364EC4853C47B1E3 /* Pods-GymTube2-GymTube2UITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,22 +699,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65217E1BF718FE1CCC32D1E2582994C3 /* Sources */ = {
+		5AFAAA07D944ED2FB817508B045D4BD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC58CC260328DED9AE29AED931B8B9D /* Pods-GymTube2-dummy.m in Sources */,
+				6CE8D1056FD5A2E599A9358E91BE29B3 /* Pods-GymTube2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BF7CD1EB709374CF2F113BCDCB7C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81E914B104FCF8EC58E52CA20A45392 /* AccessibilityIdentifiers.swift in Sources */,
+				F32744433320C4C2277F28D2D02C1E44 /* BlurringOverlayStyleManager.swift in Sources */,
+				28BDE89DF51A3448CD8F3C0A9F3FF8CA /* CoachMark.swift in Sources */,
+				1445F55802D2619591CF3EA037B03698 /* CoachMarkAnimationManagement.swift in Sources */,
+				F823B3785203F7C840087A989E50A957 /* CoachMarkAnimationManager.swift in Sources */,
+				DBC2E443091959BEEA9E173558848C2C /* CoachMarkArrowDefaultView.swift in Sources */,
+				A01600C4CD082A4CB6E5D21A0144FC9F /* CoachMarkArrowOrientation.swift in Sources */,
+				E1E4AC6D21518861C61955240CCD5FE2 /* CoachMarkArrowView.swift in Sources */,
+				DBE3C9BAFB1FC90906062AA31BDB8D5F /* CoachMarkBackgroundStyle.swift in Sources */,
+				FCB5A62C6E9FA55391A3FE51D0862C12 /* CoachMarkBodyBackgroundView.swift in Sources */,
+				0BCCC159F89C23FF1C5DDABE791518EB /* CoachMarkBodyDefaultView.swift in Sources */,
+				0190D51130399D52585B3F4978A4C533 /* CoachMarkBodyHighlightArrowDelegate.swift in Sources */,
+				220F87D0AEB57CDE58B7ED1680DAE3AC /* CoachMarkBodyView.swift in Sources */,
+				08DD28828D57F760BE57C06FDB5871D2 /* CoachMarkComponent.swift in Sources */,
+				F08AFFA5D9BE3CCCE81D16AEFA6452BB /* CoachMarkDisplayManager.swift in Sources */,
+				D606D4A24BE76065555324DFA8A5798E /* CoachMarkHelper.swift in Sources */,
+				00E32EFF838E92B4D365E3B6D4C827BA /* CoachMarkInnerLayoutHelper.swift in Sources */,
+				C84D3F4DC9CF7BF73194101012813CE9 /* CoachMarkLayoutHelper.swift in Sources */,
+				4B93922CBA1FD9BE04FBF1B75C800C17 /* CoachMarkPosition.swift in Sources */,
+				247083C2EF1234953BAC64D59277F2E3 /* CoachMarksController+Proxy.swift in Sources */,
+				773D349D1ADF4D12E1AB68EEA31F2F16 /* CoachMarksController.swift in Sources */,
+				BDEFEEC496E8CF3AC82DFD5CDC1BA80E /* CoachMarksControllerAnimationDelegate.swift in Sources */,
+				4F8E5C08E2BD46DE2BF060525A3BE42B /* CoachMarksControllerDataSource.swift in Sources */,
+				0EEC821DAF84CC7B3004BE080D670372 /* CoachMarksControllerDelegate.swift in Sources */,
+				367437CA1BD35421BA2975A905D0087D /* CoachMarkSkipDefaultView.swift in Sources */,
+				785E096AAAA599BF4432217672554850 /* CoachMarkSkipView.swift in Sources */,
+				C83E39D5A6E8BA52641378D68524ADD2 /* CoachMarksViewController.swift in Sources */,
+				AA9357F3C4FA5A19D64268ED580B7444 /* CoachMarkTransitionManager.swift in Sources */,
+				41B0BD3B7D1B74552EDAA046FE22F284 /* CoachMarkView.swift in Sources */,
+				7732FA817F86C43195797C7159CA5257 /* CoachMarkViewControllerDelegate.swift in Sources */,
+				2E20F36A73395A089D0F3E88DD7D66DC /* ConfigurationChange.swift in Sources */,
+				189743401A1BA4D5DE953A30AA2ABEAB /* FlowManager.swift in Sources */,
+				AA39AD248EE2CAB1CEBD9A7F8794EBFD /* Instructions-dummy.m in Sources */,
+				725FAEDAA2D8863BFDEFA01F7A45B21F /* Instructions.swift in Sources */,
+				1B07FE14ABB4A1CEC55FBA5458A9BAF8 /* MaskView.swift in Sources */,
+				91EB4B31C1491A4CB9FF5D86B08C8BE1 /* OverlayManager.swift in Sources */,
+				06CFD8D2464CCCC474E6D367A12ECDFD /* OverlaySnapshotView.swift in Sources */,
+				8FC4B1BC745FA8CFE37CAE23557E4BD9 /* OverlayStyleManager.swift in Sources */,
+				98AEA55F32CE9A3777CFCAEE2FCE1D42 /* OverlayView.swift in Sources */,
+				2972A1B524011809EC494706CF24EABE /* PassthroughViews.swift in Sources */,
+				4039A8C50D81DCBBF73CCC8BC684EE65 /* PauseStyle.swift in Sources */,
+				BDE05B4494259B7F946C05E078D4444A /* PresentationContext.swift in Sources */,
+				026E11786B3FB36A947A68E081D3BEED /* SkipViewDisplayManager.swift in Sources */,
+				A27DD3AF195536497DEF447CCFC4871B /* TranslucentOverlayStyleManager.swift in Sources */,
+				EED8A1710FE9BD91230238DFFB9542C3 /* UIApplication+WindowScene.swift in Sources */,
+				490FDB63662910C99D55B4D8CEB458D5 /* UIView+Layout.swift in Sources */,
+				8AA90FBBA59AE9A471B575C5775FFF4F /* ViewControllerConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		57ECE752F916EC719B6BE0F6FAB02334 /* PBXTargetDependency */ = {
+		53F7B0D302D3DCEA616A4683E8FBD499 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YouTubePlayer;
 			target = 6273C43DC7FF94E93DBFF580DB584296 /* YouTubePlayer */;
-			targetProxy = EB718BF292BE1D18A1198BF8E5215BCF /* PBXContainerItemProxy */;
+			targetProxy = 8B95DCD810329D07128EB642E09497EA /* PBXContainerItemProxy */;
+		};
+		71829C7843B7F9A39042064D7E8E9B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Instructions;
+			target = 97482FB5B78AAF68DDD9AC7CD1C3A456 /* Instructions */;
+			targetProxy = 1A526D9ACA39491A14A5DFC3CE0A31A2 /* PBXContainerItemProxy */;
 		};
 		7D0C6D21CC8ECBEBFF5DDE6CE765B1C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -491,16 +782,22 @@
 			target = 84666EEF509607BAC477739B19F94523 /* Pods-GymTube2 */;
 			targetProxy = 3C6D52340952BB1C91ADB0C4B45563A4 /* PBXContainerItemProxy */;
 		};
-		AA218C18E2A3865769D8D8B060CDB66C /* PBXTargetDependency */ = {
+		A78B54E0F808CC3906E9D2A7EC00E65A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YouTubePlayer;
 			target = 6273C43DC7FF94E93DBFF580DB584296 /* YouTubePlayer */;
-			targetProxy = D9B592E5A40CED13C1CC7D7C6222CE74 /* PBXContainerItemProxy */;
+			targetProxy = C769246FA19CF350EF24BA02E2098536 /* PBXContainerItemProxy */;
+		};
+		C18149A30A615EC9EF446B4F79FFE895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Instructions;
+			target = 97482FB5B78AAF68DDD9AC7CD1C3A456 /* Instructions */;
+			targetProxy = 3648CC6893D0C0D246C6DAB4207E48FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		14CF2A89F209DA670386B158ACFBC443 /* Release */ = {
+		36711BCD24F2EB25DE32A5F731AE8351 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FCF260F6F0DB56EDF0725F630791DBDF /* Pods-GymTube2.release.xcconfig */;
 			buildSettings = {
@@ -539,12 +836,10 @@
 			};
 			name = Release;
 		};
-		42EDA67A7B61DEFEDA309D89A3473163 /* Debug */ = {
+		6BE21FF93EF726D6BAA984491ABBE7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF2C140999EBD634532A52A7198D7D74 /* Pods-GymTube2-GymTube2UITests.debug.xcconfig */;
+			baseConfigurationReference = 116B0E90F0D11AA8AB0816AF2A3D9A0E /* Instructions.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -554,23 +849,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GymTube2-GymTube2UITests/Pods-GymTube2-GymTube2UITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Instructions/Instructions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Instructions/Instructions-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GymTube2-GymTube2UITests/Pods-GymTube2-GymTube2UITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Instructions/Instructions.modulemap";
+				PRODUCT_MODULE_NAME = Instructions;
+				PRODUCT_NAME = Instructions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -701,9 +995,47 @@
 			};
 			name = Release;
 		};
+		8B5B885341BD21273DBBBBB6E6D9AE81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B946945E2A733357CC5CC26F824EAF /* Pods-GymTube2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GymTube2/Pods-GymTube2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GymTube2/Pods-GymTube2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9EB87053FEB22C4FFFCD15F8943AA22B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7719077D15D0E789A9C8B9FB3297065 /* YouTubePlayer.debug.xcconfig */;
+			baseConfigurationReference = FE0715DC913798BCCBFB2CBA2BD48213 /* YouTubePlayer.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -736,7 +1068,7 @@
 			};
 			name = Debug;
 		};
-		A50C6878604745C900EEB48025AAD6DA /* Release */ = {
+		AC6827CDB4CDBEB8B6A598C365A54573 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD249083FA75706C4308F3441E127C9A /* Pods-GymTube2-GymTube2UITests.release.xcconfig */;
 			buildSettings = {
@@ -813,9 +1145,9 @@
 			};
 			name = Debug;
 		};
-		D8DC723723A967A8D1B337A1A1B20721 /* Debug */ = {
+		CB57BA9FEC7D1C9DEDBF79C5212B501C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6B946945E2A733357CC5CC26F824EAF /* Pods-GymTube2.debug.xcconfig */;
+			baseConfigurationReference = EF2C140999EBD634532A52A7198D7D74 /* Pods-GymTube2-GymTube2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -828,7 +1160,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GymTube2/Pods-GymTube2-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GymTube2-GymTube2UITests/Pods-GymTube2-GymTube2UITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -837,7 +1169,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GymTube2/Pods-GymTube2.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-GymTube2-GymTube2UITests/Pods-GymTube2-GymTube2UITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -853,7 +1185,7 @@
 		};
 		DBB5514B520ED6EF0FF753D5D9AE64A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97E866EDD45116032E2E52BD2ED93256 /* YouTubePlayer.release.xcconfig */;
+			baseConfigurationReference = 49BE7D90CE5D21F5BFE8DD8810A58EB8 /* YouTubePlayer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -876,6 +1208,42 @@
 				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
 				PRODUCT_MODULE_NAME = YouTubePlayer;
 				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E21645B08F0A3F3C1E85975F6E3B6869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D4778C4B7F3AD742C639504B2BDBC5 /* Instructions.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Instructions/Instructions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Instructions/Instructions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Instructions/Instructions.modulemap";
+				PRODUCT_MODULE_NAME = Instructions;
+				PRODUCT_NAME = Instructions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -929,6 +1297,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F408CD56F1F5BB77983F9A524DFF17B /* Build configuration list for PBXNativeTarget "Pods-GymTube2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5B885341BD21273DBBBBB6E6D9AE81 /* Debug */,
+				36711BCD24F2EB25DE32A5F731AE8351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -947,29 +1324,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		70B7F7CB5CB76B1E0AEF587FD2B36564 /* Build configuration list for PBXNativeTarget "Instructions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE21FF93EF726D6BAA984491ABBE7D5 /* Debug */,
+				E21645B08F0A3F3C1E85975F6E3B6869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF8887CE12F05AD69E3D292D7A83F3F /* Build configuration list for PBXNativeTarget "Pods-GymTube2-GymTube2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB57BA9FEC7D1C9DEDBF79C5212B501C /* Debug */,
+				AC6827CDB4CDBEB8B6A598C365A54573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AAA11745662A67B380B8359DFBD9349A /* Build configuration list for PBXNativeTarget "Pods-GymTube2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7BED4DA51D87B9BAC0CEAE881B1D8DD /* Debug */,
 				EAF049D186C794564F2FA880AB776B5A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F9CAD9F19E1B52D4CDFF5E5963B357A0 /* Build configuration list for PBXNativeTarget "Pods-GymTube2-GymTube2UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42EDA67A7B61DEFEDA309D89A3473163 /* Debug */,
-				A50C6878604745C900EEB48025AAD6DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE3EB1700C3F222DBC544E8E02E4D3A2 /* Build configuration list for PBXNativeTarget "Pods-GymTube2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8DC723723A967A8D1B337A1A1B20721 /* Debug */,
-				14CF2A89F209DA670386B158ACFBC443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

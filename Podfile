@@ -7,6 +7,7 @@ target 'GymTube2' do
 
   # Pods for GymTube2
   pod 'YouTubePlayer'
+  pod 'Instructions', '~> 2.0.0'
 
   target 'GymTube2Tests' do
     inherit! :search_paths

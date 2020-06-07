@@ -1,16 +1,20 @@
 PODS:
+  - Instructions (2.0.0)
   - YouTubePlayer (0.7.0)
 
 DEPENDENCIES:
+  - Instructions (~> 2.0.0)
   - YouTubePlayer
 
 SPEC REPOS:
   trunk:
+    - Instructions
     - YouTubePlayer
 
 SPEC CHECKSUMS:
+  Instructions: debf9cedeaf8d095108fd35d2c54b97ccf769e65
   YouTubePlayer: d27e302eecbbd6b17c73d9788cb6d817a3815720
 
-PODFILE CHECKSUM: 650f042b19877b85767644d30afa553cbeb1a154
+PODFILE CHECKSUM: aed19f74d3f9bad8693cfcd48cc3a3ec3724f339
 
 COCOAPODS: 1.9.1

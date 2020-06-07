@@ -42,7 +42,7 @@
                                     <action selector="tapReturn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bfD-2c-TQc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YoutubeのURLを正しく入れてね🥺" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhI-Hz-nj3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Youtubeの共有ボタンからURLをコピペしてね🥺" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhI-Hz-nj3">
                                 <rect key="frame" x="0.0" y="515" width="414" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="XkE-Gt-Ppy"/>

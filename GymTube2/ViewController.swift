@@ -9,6 +9,7 @@
 import UIKit
 import YouTubePlayer
 import CoreMotion
+import Instructions
 
 
 class ViewController: UIViewController, YouTubePlayerDelegate, UITextFieldDelegate {
@@ -34,6 +35,11 @@ class ViewController: UIViewController, YouTubePlayerDelegate, UITextFieldDelega
     @IBOutlet var judgeLabel: UILabel!
     @IBOutlet weak var inputURLField: UITextField!
     @IBOutlet weak var errorMessageLabel: UILabel!
+    
+    //for a tutorial
+    let coachMarksController = CoachMarksController()
+    //pointOfInterestが指し示されます。スポットライトが当たるみたいに
+    private var pointOfInterest:UIView!
     
     @IBAction func tapPlay(_ sender: Any) {
         
@@ -85,6 +91,11 @@ class ViewController: UIViewController, YouTubePlayerDelegate, UITextFieldDelega
                         self.outputAccelData(acceleration: accelData!.acceleration)
                    })
         }
+        
+        //for a tutorial
+        self.coachMarksController.dataSource = self
+        self.pointOfInterest = self.playerView
+        self.coachMarksController.overlay.backgroundColor = UIColor.init(white: 0, alpha: 0.3)
     }
     
     @IBAction func tapReturn(_ sender: UIButton) {
@@ -119,6 +130,19 @@ class ViewController: UIViewController, YouTubePlayerDelegate, UITextFieldDelega
         }
         
         override func viewDidAppear(_ animated: Bool) {
+            
+            super.viewDidAppear(animated)
+                    
+            //初回起動判定
+            let ud = UserDefaults.standard
+            if ud.bool(forKey: "firstLaunch") {
+            // 初回起動時の処理 tutorialを再生
+            self.coachMarksController.start(in: .currentWindow(of: self))
+            // 2回目以降の起動では「firstLaunch」のkeyをfalseに
+            ud.set(false, forKey: "firstLaunch")
+            }
+            
+            
             // 画面回転を検知
             NotificationCenter.default.addObserver(self,
                                                    selector:#selector(didChangeOrientation(_:)),
@@ -184,7 +208,70 @@ class ViewController: UIViewController, YouTubePlayerDelegate, UITextFieldDelega
             }
             
         }
+}
 
 
+//for a tutorial
+extension ViewController:CoachMarksControllerDataSource, CoachMarksControllerDelegate{
+        
+        func numberOfCoachMarks(for coachMarksController: CoachMarksController) -> Int {
+    //表示するスポットライトの数。チュートリアルの数。
+            return 3
+        }
+
+        func coachMarksController(_ coachMarksController: CoachMarksController,
+                                      coachMarkAt index: Int) -> CoachMark {
+    //指し示す場所を決める。　今回はpointOfInterestすなわちButtonga指し示される
+//            return coachMarksController.helper.makeCoachMark(for: pointOfInterest)
+            
+            switch index {
+            case 0:
+                return coachMarksController.helper.makeCoachMark(for: self.playerView)
+            case 1:
+                return coachMarksController.helper.makeCoachMark(for: self.inputURLField)
+            case 2:
+                return coachMarksController.helper.makeCoachMark(for: self.startButton)
+            default:
+                return CoachMark()
+        }
+    }
+
+
+    //tableview　でいうreturn cellに似てるのかなってイメージ。表示するチュートリアルメッセージなどがいじれる
+        func coachMarksController(
+            _ coachMarksController: CoachMarksController,
+            coachMarkViewsAt index: Int,
+            madeFrom coachMark: CoachMark
+        ) -> (bodyView: (UIView & CoachMarkBodyView), arrowView: (UIView & CoachMarkArrowView)?) {
+            let coachViews = coachMarksController.helper.makeDefaultCoachViews(withArrow: true, withNextText: true, arrowOrientation: coachMark.arrowOrientation)
+            
+            
+           /*
+            coachViews.bodyView.hintLabel.text = "YouTubeの共有ボタンからリンクをコピペしてください✏️"
+            coachViews.bodyView.nextLabel.text = "×"
+ */
+            switch index {
+            case 0:
+                coachViews.bodyView.hintLabel.text = "自分の顔とiPhoneが平行になっている間だけ動画が再生されます📺"
+                coachViews.bodyView.nextLabel.text = "→"
+            case 1:
+                coachViews.bodyView.hintLabel.text = "ここにはYouTubeの共有ボタンからリンクをコピペしてください✏️"
+                coachViews.bodyView.nextLabel.text = "→"
+            case 2:
+                coachViews.bodyView.hintLabel.text = "とりあえずPLAYボタンを押して試してみよう💨"
+                coachViews.bodyView.nextLabel.text = "×"
+            default: break
+            }
+
+            return (bodyView: coachViews.bodyView, arrowView: coachViews.arrowView)
+                }
+}
+
+        func coachMarksController(_ coachMarksController: CoachMarksController,
+                                  willShow coachMark: inout CoachMark,
+                                  beforeChanging change: ConfigurationChange, at index: Int) {
+            if index == 2 && change == .nothing {
+                coachMarksController.flow.pause(and: .hideInstructions)
+            }
 }
 

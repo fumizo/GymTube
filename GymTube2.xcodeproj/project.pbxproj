@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1ACD7A248CE57200EC8110 /* Instructions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1ACD79248CE57200EC8110 /* Instructions.framework */; };
+		1F1ACD7F248CE5AE00EC8110 /* YouTubePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1ACD7E248CE5AE00EC8110 /* YouTubePlayer.framework */; };
 		1FAFED99248A27B300B53560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFED98248A27B300B53560 /* AppDelegate.swift */; };
 		1FAFED9B248A27B300B53560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFED9A248A27B300B53560 /* SceneDelegate.swift */; };
 		1FAFED9D248A27B300B53560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFED9C248A27B300B53560 /* ViewController.swift */; };
@@ -37,8 +39,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1F1ACD7C248CE57200EC8110 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0AB6048C329B946BD1966AAD /* Pods-GymTube2-GymTube2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymTube2-GymTube2UITests.debug.xcconfig"; path = "Target Support Files/Pods-GymTube2-GymTube2UITests/Pods-GymTube2-GymTube2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F1ACD79248CE57200EC8110 /* Instructions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Instructions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1ACD7E248CE5AE00EC8110 /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAFED95248A27B300B53560 /* GymTube2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymTube2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAFED98248A27B300B53560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FAFED9A248A27B300B53560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +86,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				983DBC9C272E67A439837128 /* Pods_GymTube2.framework in Frameworks */,
+				1F1ACD7A248CE57200EC8110 /* Instructions.framework in Frameworks */,
+				1F1ACD7F248CE5AE00EC8110 /* YouTubePlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +167,8 @@
 		5170031BCE3D0E1EC1896B84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F1ACD7E248CE5AE00EC8110 /* YouTubePlayer.framework */,
+				1F1ACD79248CE57200EC8110 /* Instructions.framework */,
 				B10A3F1C0DF36DD75E2C0720 /* Pods_GymTube2.framework */,
 				84453864B97C4992B02B76D7 /* Pods_GymTube2_GymTube2UITests.framework */,
 				4E47DF065C8E02FA3EF66180 /* Pods_GymTube2Tests.framework */,
@@ -180,6 +201,7 @@
 				1FAFED92248A27B300B53560 /* Frameworks */,
 				1FAFED93248A27B300B53560 /* Resources */,
 				0E464FDC2E3F9268C1C2C892 /* [CP] Embed Pods Frameworks */,
+				1F1ACD7C248CE57200EC8110 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
