@@ -95,7 +95,7 @@ class ViewController: UIViewController, YouTubePlayerDelegate, UITextFieldDelega
         //for a tutorial
         self.coachMarksController.dataSource = self
         self.pointOfInterest = self.playerView
-        self.coachMarksController.overlay.backgroundColor = UIColor.init(white: 0, alpha: 0.3)
+        self.coachMarksController.overlay.backgroundColor = UIColor.init(white: 0, alpha: 0.5)
     }
     
     @IBAction func tapReturn(_ sender: UIButton) {
@@ -216,7 +216,7 @@ extension ViewController:CoachMarksControllerDataSource, CoachMarksControllerDel
         
         func numberOfCoachMarks(for coachMarksController: CoachMarksController) -> Int {
     //表示するスポットライトの数。チュートリアルの数。
-            return 3
+            return 5
         }
 
         func coachMarksController(_ coachMarksController: CoachMarksController,
@@ -230,6 +230,10 @@ extension ViewController:CoachMarksControllerDataSource, CoachMarksControllerDel
             case 1:
                 return coachMarksController.helper.makeCoachMark(for: self.inputURLField)
             case 2:
+                return coachMarksController.helper.makeCoachMark(for: self.accelerometerX)
+            case 3:
+                return coachMarksController.helper.makeCoachMark(for: self.accelerometerY)
+            case 4:
                 return coachMarksController.helper.makeCoachMark(for: self.startButton)
             default:
                 return CoachMark()
@@ -258,8 +262,14 @@ extension ViewController:CoachMarksControllerDataSource, CoachMarksControllerDel
                 coachViews.bodyView.hintLabel.text = "ここにはYouTubeの共有ボタンからリンクをコピペしてください✏️"
                 coachViews.bodyView.nextLabel.text = "→"
             case 2:
-                coachViews.bodyView.hintLabel.text = "とりあえずPLAYボタンを押して試してみよう💨"
+                coachViews.bodyView.hintLabel.text = "ここを目安にiPhoneの傾きを調整しよう⏱"
                 coachViews.bodyView.nextLabel.text = "×"
+            case 3:
+                coachViews.bodyView.hintLabel.text = "x=0.0 y=-1.0が自分と平行な状態です📱"
+                coachViews.bodyView.nextLabel.text = "×"
+            case 4:
+                coachViews.bodyView.hintLabel.text = "とりあえずPLAYボタンを押して試してみよう💨"
+                coachViews.bodyView.nextLabel.text = "OK!"
             default: break
             }
 
